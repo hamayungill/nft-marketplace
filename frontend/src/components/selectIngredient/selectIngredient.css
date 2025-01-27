@@ -1,0 +1,14 @@
+.ingredient-col{padding:22px 10px 0;color:#3D3431;}
+.ingredient-col h3{font-size:34px;line-height:38px;}
+.ingredient-col .ingredients-heading-text{font-size:34px;line-height:38px;color:#3D3431;}
+@media only screen and (max-width:1365px){
+	.ingredient-col .ingredients-heading-text{font-size:28px;;line-height:32px;}
+	.ingredient-col .btn-red-outline{font-size:18px;line-height:22px;}
+}
+@media only screen and (max-width:1199px){
+	.ingredient-col .ingredients-heading-text{font-size:24px;line-height:28px;}
+	.ingredient-col .btn-red-outline{font-size:16px;line-height:19px;}
+}
+@media only screen and (max-width:575px){
+	.ingredient-col .ingredients-heading-text{font-size:20px;line-height:24px;}
+}

@@ -1,0 +1,70 @@
+#header{background:#CC4443;position: relative;}
+#header::after{content: "";width: 100%; height: 2px; left: 0; bottom: 0; position: absolute; background-color: #3D3431;}
+#header .logo{width:100%;max-width:140px;}
+#header .nav-holder{padding:40px 0 0 15px;}
+#header .site-name{font-size:50px;line-height:54px;color:#F5F5F5;}
+#header .navbar{font-size:26px;line-height:30px;font-weight:900;position: static; margin-left: 2px;}
+#header .navbar .nav-item{margin:0 30px 0 0;}
+#header .navbar .nav-link{color:#fff;padding:0 0 7px;}
+#header .navbar .active .nav-link,
+#header .navbar .nav-link:hover{color:#FFDA54;}
+#header .navbar .nav-link:after{width:0;height:4px;content:"";position: absolute;left:50%;-o-transform:translateX(-50%);-ms-transform:translateX(-50%);-moz-transform:translateX(-50%);-webkit-transform:translateX(-50%);transform:translateX(-50%); bottom:0;background:#FFDA54;transition:all ease-in-out 0.3s;}
+#header .navbar .active .nav-link::after,
+#header .navbar .nav-link:hover:after{width:100%;}
+#header .btn-cnct-wall{position:absolute;top:20px;right:20px;padding:10px 27px;}
+.laszlo-modal.connect-wallet-modal .modal-content{background:#FFDA54;border:none;}
+.laszlo-modal.connect-wallet-modal .wallet-icon-holder img{width:113px;height:auto;}
+.laszlo-modal.connect-wallet-modal h3{color:#3D3431;}
+#header .cwallet-dropdown .dropdown-menu[data-bs-popper]{left: 50%;transform: translateX(-50%);-webkit-transform: translateX(-50%);-o-transform: translateX(-50%);-ms-transform: translateX(-50%);-moz-transform: translateX(-50%); width: 100%; padding: 0;}
+#header .cwallet-dropdown  .dropdown-item:hover{background-color: #FFDA54;color: #CC4443;border-radius: 0.25rem;}
+#header .cwallet-dropdown .dropdown-item.active, #header .cwallet-dropdown .dropdown-item:active {background-color: #FFDA54;color: #CC4443;border-radius: 0.25rem; }
+#header .cwallet-dropdown{position: absolute !important;top: 20px;right: 20px;margin: 10px 27px;}
+#header .claim-button {position: absolute !important;top: 20px;right: 260px;margin: 10px 27px;border: 2px solid #FFDA54;}
+#header .dropdown-item {text-align: center;}
+@media only screen and (max-width:1600px){
+	#header .site-name { font-size: 46px;}
+	#header .claim-button {margin: 10px 15px;}
+}
+@media only screen and (max-width:1399px){
+	#header .site-name{font-size: 36px;line-height:49px;}
+	#header .navbar{font-size:24px;line-height:28px;}
+	#header .claim-button {right: 225px;margin: 10px 15px;}
+	#header .cwallet-dropdown {margin: 10px 15px;}
+}
+@media only screen and (max-width:1199px){
+	#header .nav-holder{padding:65px 0 0 15px;}
+	#header .site-name{font-size:30px;line-height:38px;}
+	#header .navbar{font-size:18px;line-height:22px;}
+	#header .claim-button {right: 190px;}
+}
+@media only screen and (max-width:991px){
+	#header .logo{width:95px;}
+	#header .nav-holder{padding:19px 0 0 15px;}
+	#header .site-name{max-width:250px;display:block;font-size:20px;line-height:34px;}
+	#header .btn-cnct-wall{position: static;top:auto;right:auto;}
+	.navbar-toggler{position: absolute;border:none !important;padding:0 !important;top:50%;right:15px;-o-transform: translateY(-50%);-ms-transform: translateY(-50%);-moz-transform: translateY(-50%);-webkit-transform: translateY(-50%);transform: translateY(-50%);}
+	.navbar-toggler:focus{outline:none !important;box-shadow:none !important;}
+	.navbar-collapse{width:300px;position: absolute;top:100%;right:0;background:#3D3431;padding:20px; z-index: 999;}
+	.navbar-light .navbar-toggler-icon{width:40px;height:40px;background-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='rgba(255, 218, 84, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important}
+    #header .navbar{font-size:14px;line-height:18px;font-family: 'Press Start 2P';}
+	#header .navbar .nav-item{margin:0 0 30px;}
+	#header .navbar .nav-link{display:inline-block;vertical-align:top;}
+	#header .navbar .nav-link:after{height:3px;}
+	.laszlo-modal.connect-wallet-modal .wallet-icon-holder img{width:70px;}
+	#header .cwallet-dropdown {position: static !important;margin: 0px 0px;}
+	#header .cwallet-dropdown .btn-yellow {font-size: 15px; width: 100%; display: flex;align-items: center;}
+	#header .wallet-dropdown{width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block;}
+	#header .cwallet-dropdown .dropdown-menu[data-bs-popper]{width: 100%;background: #3D3431;}
+	#header .cwallet-dropdown .dropdown-item {color: white;}
+	#header .cwallet-dropdown .dropdown-item {padding: 10px 8px;text-align: center;}
+	#header .dropdown-menu[data-bs-popper]{margin-top: -2px;}
+	#header .claim-button {position: static !important; width: 100%; margin: 10px 0;}
+}
+@media only screen and (max-width:479px){
+	#header .logo{width:70px;}
+	#header .nav-holder{padding:10px 0 0 10px;}
+	#header .site-name{max-width:160px;font-size:16px;line-height:25px;}
+	.navbar-collapse{width:260px}
+	#header .cwallet-dropdown .btn-yellow {font-size: 12px;}
+	#header .cwallet-dropdown .dropdown-item {font-size: 12px;}
+}

@@ -1,0 +1,28 @@
+.meet-artist-section{padding: 40px 21px 100px; }
+.artist-content p{min-height: 340px;}
+.meet-artist-section .meet-artist-head span{font-size: 30px;line-height: 40px;color: #3D3431; margin:0 0 50px; display: block;}
+/*responsiveness*/
+@media (max-width: 991px){
+    .meet-artist-section .meet-artist-head span { font-size: 26px; line-height: 36px;}
+}
+@media (max-width: 767px){
+    .meet-artist-section{padding: 30px 21px 50px; }
+    .meet-artist-section .meet-artist-head span { font-size: 22px; line-height: 32px;}
+}
+@media (max-width: 575px){
+    .meet-artist-section .meet-artist-head span { font-size: 18px; line-height: 28px;}
+    .artist-content p {
+        min-height: 150px;
+    }
+}
+@media (max-width: 479px){
+    .meet-artist-section .meet-artist-head span { font-size: 14px; line-height: 24px;}
+}
+@media (max-width: 319px){
+    .meet-artist-section {padding: 30px 15px 50px;}
+}
+@media (max-width: 280px){
+    .artist-content p {
+        min-height: 180px;
+    }
+}

@@ -1,0 +1,22 @@
+#hero-banner{height:330px;background:#fff url('../../assets/images/banner-bg.svg');background-size:cover;background-position:center center;border-bottom:1px solid #3D3431;}
+#hero-banner h1{font-size:40px;line-height:45px;margin:0 0 15px;color:#CC4443;}
+#hero-banner h2{font-size:36px;line-height:40px;margin:0;color:#3D3431;}
+@media only screen and (max-width:991px){
+	#hero-banner{height:250px;}
+	#hero-banner h1{font-size:28px;line-height:33px;}
+	#hero-banner h2{font-size:24px;line-height:28px;}
+}
+@media only screen and (max-width:767px){
+	#hero-banner{height:200px;}
+	#hero-banner h1{font-size:22px;line-height:26px;}
+	#hero-banner h2{font-size:18px;line-height:22px;}
+}
+@media only screen and (max-width:575px){
+	#hero-banner{height:180px;}
+	#hero-banner h1{font-size:18px;line-height:22px;}
+	#hero-banner h2{font-size:14px;line-height:18px;}
+}
+@media only screen and (max-width:479px){
+	#hero-banner h1{line-height:30px;}
+	#hero-banner h2{line-height:26px;}
+}

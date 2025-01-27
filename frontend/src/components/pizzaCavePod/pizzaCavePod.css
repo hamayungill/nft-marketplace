@@ -1,0 +1,40 @@
+#pizza-cave-pod{padding:0 21px;}
+#pizza-cave-pod .heading-section{padding:30px;}
+#pizza-cave-pod .heading-section h2{margin:0 0 30px;}
+#pizza-cave-pod .pod-block{font-size:30px;line-height:50px;color:#343A40;border-radius:10px;background:#FFDA54;padding:21px 65px;justify-content: space-between;}
+#pizza-cave-pod .pod-block .image-holder{width:250px;margin:0 45px 0 0;}
+#pizza-cave-pod .pod-block h2{font-size:28px;line-height:32px;color:#3D3431;margin:0 0 30px;}
+#pizza-cave-pod .pod-block .text-holder{width:calc(100% - 240px)}
+#pizza-cave-pod .pod-block .text-block{margin:0 0 60px;}
+@media only screen and (max-width:1365px){
+    #pizza-cave-pod .pod-block{font-size: 26px;line-height: 34px;}
+    #pizza-cave-pod .pod-block h2{font-size:24px;line-height:28px;}
+}
+@media only screen and (max-width:1199px){
+    #pizza-cave-pod .pod-block{padding:20px 20px 30px;font-size:22px;line-height:30px;align-items: center;}
+    #pizza-cave-pod .pod-block h2{font-size:22px;line-height:28px;margin:0 0 20px;}
+}
+@media only screen and (max-width:991px){
+    #pizza-cave-pod .pod-block{font-size:18px;line-height:26px;}
+    #pizza-cave-pod .pod-block h2{font-size:20px;line-height:26px;}
+}
+@media only screen and (max-width:767px){
+    /* #pizza-cave-pod .pod-block{flex-direction:column} */
+    #pizza-cave-pod .pod-block .text-holder{width:100%;}
+    #pizza-cave-pod .pod-block h2{line-height:33px;}
+    #pizza-cave-pod .heading-section{padding:25px 0;}
+    #pizza-cave-pod .heading-section h2{margin:0;}
+}
+@media only screen and (max-width:479px){
+    #pizza-cave-pod .pod-block h2 {line-height: 32px;font-size: 14px;}
+    #pizza-cave-pod .pod-block {font-size: 14px;line-height: 22px;}
+    #pizza-cave-pod .pod-block .image-holder { width: 100%;margin: 0%;}
+    .btn-yellow, .btn-red {font-size: 14px;line-height: 23px;}
+}
+@media only screen and (max-width:479px){
+    #pizza-cave-pod .pod-block h2 {line-height: 20px;min-width: 196px; font-size: 12px;}
+    #pizza-cave-pod .pod-block{align-items: center;}
+    #pizza-cave-pod .pod-block .text-block {
+        margin: 0 0 30px;
+    }
+}

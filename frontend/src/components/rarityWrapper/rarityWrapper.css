@@ -1,0 +1,45 @@
+.rarity-wrapper{position: relative; border: 1px solid #CC4443; box-sizing: border-box; border-radius: 10px; padding: 20px; margin:0 0px 30px;}
+.rarity-wrapper .rarity-data{ display: flex; justify-content: space-between; gap: 20px; align-items: center;}
+.rarity-wrapper .rarity-image{ width: 200px; height: 200px;}
+.rarity-wrapper .rarity-image img{ width: 100%; height: 100%; object-fit: cover;}
+.rarity-wrapper .rarity-content{ width: calc(100% - 220px); display: flex; flex-direction: column;}
+.rarity-wrapper .rarity-content .user-id{ font-size: 18px; line-height: 40px; font-weight: 400; display: inline-block;}
+.rarity-wrapper .rarity-content .user-date{ font-size: 18px; line-height: 40px; color: #3D3431; margin: 0; font-weight: 500;}
+.rarity-wrapper .rarity-button{border-radius: 0px 10px 0px 0px;position: absolute; top: 0; right: 0; padding: 12px 12px;}
+.rarity-wrapper .rarity-price-tag{font-size: 16px;line-height: 40px; display: block; white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+/*responsiveness*/
+@media (max-width: 991px){
+    .rarity-wrapper .rarity-content .user-id{ font-size: 16px; line-height: 36px; }
+    .rarity-wrapper .rarity-content .user-date{ font-size: 16px; line-height: 36px;}
+    .rarity-wrapper .rarity-price-tag{font-size: 15px;line-height: 35px;}
+}
+@media (max-width: 767px){
+    .rarity-wrapper .rarity-image { width: 170px; height: 170px;}
+    .rarity-wrapper .rarity-content { width: calc(100% - 190px);}
+    .rarity-wrapper .rarity-content .user-id{ font-size: 15px; line-height: 32px; }
+    .rarity-wrapper .rarity-content .user-date{ font-size: 15px; line-height: 32px;}
+    .rarity-wrapper .rarity-price-tag{font-size: 14px;line-height: 30px;}
+}
+@media (max-width: 575px){
+    .rarity-wrapper .rarity-image { width: 150px; height: 150px;}
+    .rarity-wrapper .rarity-content { width: calc(100% - 170px);}
+    .rarity-wrapper .rarity-content .user-id{ font-size: 13px; line-height: 28px;overflow: hidden;width: 160px;white-space: nowrap; }
+    .rarity-wrapper .rarity-content .user-date{ font-size: 13px; line-height: 28px;}
+    .rarity-wrapper .rarity-price-tag{font-size: 13px;line-height: 20px;}
+    .rarity-wrapper .rarity-button { padding: 12px 5px;}
+}
+@media (max-width: 480px){
+    .rarity-wrapper .rarity-content .user-id{ font-size: 12px; line-height: 24px; width: 150px; }
+    .rarity-wrapper .rarity-content .user-date{ font-size: 12px; line-height: 24px;}
+    .rarity-wrapper .rarity-image { width: 90px; height: 90px;}
+    .rarity-wrapper .rarity-content { width: calc(100% - 100px);}
+    .rarity-wrapper .rarity-price-tag{font-size: 12px;line-height: 15px;}
+    .rarity-wrapper .rarity-button { padding: 10px 5px;}
+    .rarity-wrapper .rarity-data { gap: 10px;}
+    .rarity-wrapper .rarity-price-tag{width: 100px;}
+}
+@media (max-width: 319px){
+    .rarity-wrapper .rarity-image { width: 80px; height: 80px;}
+    .rarity-wrapper .rarity-content { width: calc(100% - 90px);}
+    .rarity-wrapper .rarity-price-tag{font-size: 11px;line-height: 11px;}
+}

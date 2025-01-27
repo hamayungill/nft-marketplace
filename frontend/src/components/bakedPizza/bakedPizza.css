@@ -1,0 +1,21 @@
+.baked-pizza-item{border:1px solid #EA4B4B;border-radius: 10px;padding:20px;overflow: hidden;}
+.baked-pizza-item.selected{background:#FFDF8D;}
+.baked-pizza-item .baked-pizza-price{position: absolute;top:0;right:0;background:#CC4443;font-size:16px;line-height: 19px;color:#fff;padding:8px 12px;}
+.baked-pizza-item .image-holder{width:150px;margin:0 20px 0 0;}
+.baked-pizza-item .ingredients{font-size:16px;line-height:26px;color:#3D3431;padding-right:115px;}
+.baked-pizza-item .btn-red-outline{position:absolute;right:20px;bottom:20px;}
+@media only screen and (max-width:1199px){
+    .baked-pizza-item .baked-pizza-price{width: 50%;}
+}
+@media only screen and (max-width:767px){
+    .baked-pizza-item .ingredients{font-size:14px;line-height:18px;}
+    .baked-pizza-item .btn-red-outline{position: static;width:100%;}
+    .baked-pizza-item .image-holder{margin-bottom: 20px;}
+}
+@media only screen and (max-width:575px){
+    /* .baked-pizza-item{padding:35px 15px 15px;} */
+    .baked-pizza-item .baked-pizza-price{font-size:12px;line-height:15px;padding:7px;}
+    .baked-pizza-item .ingredients{padding-right:0;}
+    .baked-pizza-item .image-holder{width:100px;margin: 0 0 20px;}
+    .baked-pizza-item{padding: 10px;}
+}

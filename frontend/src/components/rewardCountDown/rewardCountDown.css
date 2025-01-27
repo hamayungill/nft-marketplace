@@ -1,0 +1,13 @@
+.rewardcountdown-block-p span{color: #CC4443;}
+@media screen and (max-width:991px) {
+    .rewardcountdown-block{display: block !important;}
+    .rewardcountdown-block-p p{margin-bottom: 8px !important;}
+    .rewardcountdown-block{text-align: end;}
+}
+@media screen and (max-width:479px) {
+    .rewardcountdown-block{display: flex !important; justify-content: space-between;}
+}
+@media screen and (max-width:350px){
+    .rewardcountdown-block{display: block !important; }
+    .rewardcountdown-block{text-align: start;}
+}

@@ -1,0 +1,9 @@
+.pizza-random-bake .random-bake-holder{padding:40px 21px 60px;max-width:650px;margin:0 auto;}
+.pizza-random-bake .random-bake-holder .table-cloth-holder{max-width:480px;margin:0 auto;}
+.cloth-image-temporary{width:480px;position: absolute;left:50%;top:0;z-index: 2;-o-transform: translateX(-50%);-ms-transform: translateX(-50%);-moz-transform: translateX(-50%);-webkit-transform: translateX(-50%);transform: translateX(-50%);}
+@media only screen and (max-width:767px){
+    .pizza-random-bake .random-bake-holder{padding:30px 21px 50px;}
+}
+@media only screen and (max-width:319px){
+    .pizza-random-bake .random-bake-holder{padding:30px 15px 50px;}
+}

@@ -1,0 +1,21 @@
+.pizza-cave-header{height:120px;padding:15px 25px;border-bottom:2px solid #3D3431;}
+.pizza-cave-header .image-holder{width:100px;margin:0 35px 0 0;}
+.pizza-cave-header h1{font-size:40px;line-height:45px;}
+@media only screen and (max-width:991px){
+    .pizza-cave-header{height:auto;padding:10px 12px;}
+    .pizza-cave-header .image-holder{width:75px;margin:0 25px 0 0;}
+    .pizza-cave-header h1{font-size:30px;line-height:34px;}
+}
+@media only screen and (max-width:767px){
+    .pizza-cave-header h1{font-size:26px;line-height:30px;}
+    .pizza-cave-header .image-holder {margin: 0px 27px 0 0;}
+}
+@media only screen and (max-width:575px){
+    .pizza-cave-header h1{font-size:22px;line-height:26px;}
+}
+@media only screen and (max-width:480px){
+    .pizza-cave-header .image-holder{width:55px;margin:0 15px 0 0;}
+}
+@media only screen and (max-width:319px){
+    .pizza-cave-header h1{font-size:16px;line-height:20px;}
+}

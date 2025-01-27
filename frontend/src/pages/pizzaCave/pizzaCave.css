@@ -1,0 +1,127 @@
+.pizza-cave-content{padding:40px 0;overflow: hidden;}
+.pizza-cave-content > .nav-tabs{margin:0 0 50px;border:none;}
+.pizza-cave-content > .nav-tabs,.pizza-cave-content .tab-detail{padding:0 21px;}
+.pizza-cave-content > .nav-tabs .nav-item{border:1px solid #3D3431;border-radius:10px;overflow: hidden;margin:0 30px 15px 0;font-weight:500;transition: all ease-in-out 0.3s;}
+.pizza-cave-content > .nav-tabs .nav-item button{font-size:24px;line-height:29px;font-weight:900;border:none;font-family: 'Lato';color:#3D3431;background:#fff;padding:15px;transition: all ease-in-out 0.3s;}
+.pizza-cave-content > .nav-tabs .nav-item:hover button,
+.pizza-cave-content > .nav-tabs .nav-item button.active{background:#3D3431;color:#FFD232;}
+.pizza-cave-content .page-description{font-size:30px;line-height:40px;color:#3D3431;margin:0 0 50px;}
+.pizza-cave-content .cave-section{border:solid #3D3431;border-width:1px 0;}
+.pizza-cave-content .row-left-right{height: 900px;}
+.pizza-cave-content .left-col{border-right: 1px solid #C4C4C4;height: 100%;overflow-y: auto;}
+/*scrollbar*/
+.pizza-cave-content .left-col::-webkit-scrollbar {background-color: #000; width: 8px;}
+.pizza-cave-content .left-col::-webkit-scrollbar-button { background-color: rgb(32, 31, 31) }
+.pizza-cave-content .left-col::-webkit-scrollbar-track{ background-color:#000; }
+.pizza-cave-content .left-col::-webkit-scrollbar-track-piece{ background-color: rgb(32, 31, 31); border-radius: 5px}
+.pizza-cave-content .left-col::-webkit-scrollbar-thumb{background-color: #ffda54 !important; border-radius: 5px }
+.pizza-cave-content .left-col::-webkit-scrollbar-corner { background-color:#000;border-radius: 5px}
+.pizza-cave-content .left-col::-webkit-resizer {background-color:#000; }
+
+.pizza-cave-content .right-col::-webkit-scrollbar {background-color: #000; width: 8px;}
+.pizza-cave-content .right-col::-webkit-scrollbar-button { background-color: rgb(32, 31, 31) }
+.pizza-cave-content .right-col::-webkit-scrollbar-track{ background-color:#000; }
+.pizza-cave-content .right-col::-webkit-scrollbar-track-piece{ background-color: rgb(32, 31, 31); border-radius: 5px}
+.pizza-cave-content .right-col::-webkit-scrollbar-thumb{background-color: #ffda54 !important; border-radius: 5px }
+.pizza-cave-content .right-col::-webkit-scrollbar-corner { background-color:#000;border-radius: 5px}
+.pizza-cave-content .right-col::-webkit-resizer {background-color:#000; }
+/**/
+.pizza-cave-content .left-col{scrollbar-color:  #ffda54 rgb(32, 31, 31);scrollbar-width: thin;}
+/**/
+/*scrollbar*/
+.pizza-cave-content .right-col::-webkit-scrollbar {background-color: #000;}
+.pizza-cave-content .right-col::-webkit-scrollbar-button { background-color: rgb(32, 31, 31) }
+.pizza-cave-content .right-col::-webkit-scrollbar-track{ background-color:#000; }
+.pizza-cave-content .right-col::-webkit-scrollbar-track-piece{ background-color: rgb(32, 31, 31)}
+.pizza-cave-content .right-col::-webkit-scrollbar-thumb{background-color: #ffda54 !important; }
+.pizza-cave-content .right-col::-webkit-scrollbar-corner { background-color:#000;}
+.pizza-cave-content .right-col::-webkit-resizer {background-color:#000; }
+/**/
+.pizza-cave-content .right-col{scrollbar-color:  #ffda54 rgb(32, 31, 31);scrollbar-width: thin;}
+/**/
+.pizza-cave-content .right-col{background:#EEEDED;height: 100%;overflow-y: auto;}
+.pizza-cave-content .pizza-col{padding:35px 10px 0;}
+.pizza-cave-content .pizza-col .nav-tabs{border:none;margin:0 0 45px;}
+.pizza-cave-content .pizza-col .nav-item button{background:none;border:none;position: relative;font-size:26px;line-height:40px;color:#3D3431;padding:0;margin:0 20px;transition:all ease-in-out 0.3s;}
+.pizza-cave-content .pizza-col .nav-item button:hover,
+.pizza-cave-content .pizza-col .nav-item button.active{color:#CC4443;}
+.pizza-cave-content .pizza-col .nav-item button:focus-visible{ outline: none !important;}
+.pizza-cave-content .pizza-col .nav-item button:after{content:"";width:0;height:5px;position: absolute;left:50%;bottom:-5px;background:#CC4443;-o-transform:translateX(-50%);-ms-transform:translateX(-50%);-moz-transform:translateX(-50%);-webkit-transform:translateX(-50%);transform:translateX(-50%);transition:all ease-in-out 0.3s;}
+.pizza-cave-content .pizza-col .nav-item button:hover:after,
+.pizza-cave-content .pizza-col .nav-item button.active:after{width:100%;}
+.pizza-cave-content .pizza-making-block{margin:0 0 40px;}
+.pizza-cave-content .table-cloth-image{width:480px;}
+.pizza-cave-content .pizza-col .added-ingredients{max-width:550px;margin: 0 auto;}
+.pizza-cave-content .pizza-col .igredient-text,
+.pizza-cave-content .pizza-col .ingredient-count{font-size:28px;line-height:32px;}
+.pizza-cave-content .pizza-col .igredient-text{color:#3D3431;}
+.pizza-cave-content .pizza-col .ingredients-list li{margin:0 0 30px;}
+.pizza-cave-content .pizza-col .btn-red-outline{padding:12px 21px;}
+.pizza-cave-content .pizza-col .pizza-rarity-table thead{font-size:28px;line-height:32px;}
+.pizza-cave-content .pizza-col .pizza-rarity-table th, .pizza-cave-content .pizza-col .pizza-rarity-table td{border:none;padding:15px 10px;}
+.pizza-cave-content .pizza-col .pizza-rarity-table tbody{font-size:16px;line-height:20px;color:#3D3431;border:none;}
+.pizzaImage{position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);z-index: 1;width:77%;}
+.table-cloth-image {position: relative;}
+/* .pizzaImage:nth-child(2) {width: 77% ;} */
+.pizzaImage img{width: 100%;height: auto;}
+.pizzaImage:first-child{width: 400px;}
+@media only screen and (max-width:1365px){
+	.__react_component_tooltip.show{
+		width:80%;font-size: 13px !important;
+		}
+	.pizza-cave-content .pizza-col .nav-item button{font-size:20px;line-height:35px;}
+	.pizza-cave-content .pizza-col .pizza-rarity-table thead{font-size:24px;line-height:28px;}
+	.pizza-cave-content .pizza-col .pizza-rarity-table tbody{font-size:14px;line-height:18px;}
+}
+@media only screen and (max-width:1199px){
+	.pizza-cave-content > .nav-tabs, .pizza-cave-content .tab-detail{padding:0 12px;margin:0 0 30px;}
+	.pizza-cave-content > .nav-tabs .nav-item{margin:0 15px 10px 0;}
+	.pizza-cave-content > .nav-tabs .nav-item button{font-size:20px;line-height:24px;padding:12px;}
+	.pizza-cave-content .page-description{font-size:24px;line-height:32px;}
+	.pizza-cave-content .pizza-col{padding:35px 0 0;}
+	.pizza-cave-content .pizza-col .nav-item button{margin:0 15px;}
+	.pizza-cave-content .pizza-col .pizza-rarity-table th,.pizza-cave-content .pizza-col .pizza-rarity-table td{padding:15px 5px;}
+}
+@media only screen and (max-width:991px){
+	.pizza-cave-content .row-left-right {height: 100%;}
+}
+@media only screen and (max-width:767px){
+	.pizza-cave-content{padding:30px 0;}
+	.pizza-cave-content > .nav-tabs .nav-item{margin:0 10px 0 0;}
+	.pizza-cave-content > .nav-tabs .nav-item button{font-size:14px;line-height:17px;padding:10px 19px;font-weight:500;}
+	.pizza-cave-content > .nav-tabs .nav-item button.active{font-weight:900;}
+	.pizza-cave-content .page-description{font-size:22px;line-height:32px;}
+	.pizza-cave-content .pizza-col .igredient-text,
+	.pizza-cave-content .pizza-col .ingredient-count{font-size:20px;line-height:24px;}
+}
+@media only screen and (max-width:575px){
+	.pizza-cave-content .pizza-col .nav-item button{margin:7px 5px;font-size:14px;line-height:17px;}
+	.pizza-cave-content .pizza-col .btn-red-outline{padding:13px 15px;font-size:14px;line-height:17px;}
+	.pizza-cave-content .page-description{font-size:18px;line-height:28px;}
+	.pizza-cave-content > .nav-tabs .nav-item{border-radius:5px;margin:0 5px 5px 0;}
+	.pizza-cave-content > .nav-tabs .nav-item button{padding:7px;}
+	.pizza-cave-content .pizza-col .ingredients-list{font-size:14px;line-height:18px;}
+}
+@media only screen and (max-width:479px){
+	.pizza-cave-content .pizza-col .pizza-rarity-table{width:456px;}
+	.pizza-cave-content .page-description{font-size:16px;line-height:24px;}
+	#footer, #footer h3 {font-size: 15px;}
+    .pizza-cave-content .pizza-col .btn-red-outline{padding: 10px;}
+}
+@media only screen and (max-width:350px){
+	.ingredient-item {display: block  !important;}
+	.ingredient-item .ingredient-image{margin: 0 auto 15px;}
+}
+@media only screen and (max-width:319px){
+	#footer, #footer h3 {font-size: 13px;}
+}
+@media only screen and (max-width:280px){
+	.ingredient-image{margin: 0 !important;}
+	.qty-value{text-align: end !important;}
+	.indgredient-detail{align-items:center ;}
+		}
+@media only screen and (max-width:240px){
+	.__react_component_tooltip.show{
+		width:80%
+		}
+}

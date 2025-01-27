@@ -1,0 +1,47 @@
+// ERRORS
+export const EMPTY_ERRORS = 'EMPTY_ERRORS';
+export const GET_ERRORS = 'GET_ERRORS';
+// ARTIST
+export const GET_ARTISTS = "GET_ARTISTS";
+export const BEFORE_ARTISTS = "BEFORE_ARTISTS";
+// User
+export const SET_USER = "SET_USER";
+export const DISCONNECT_USER = "DISCONNECT_USER";
+// Wallet 
+export const SET_WALLET_ADDRESS = "SET_WALLET_ADDRESS";
+export const GET_WALLET_ADDRESS = "GET_WALLET_ADDRESS";
+export const GET_WALLET_INGREDIENTS = "GET_WALLET_INGREDIENTS";
+export const GET_WALLET_PIZZAS = "GET_WALLET_PIZZAS";
+export const BEFORE_WALLET_DATA = "BEFORE_WALLET_DATA";
+//Ingredients
+export const GET_INGREDIENTS = 'GET_INGREDIENTS';
+export const ADD_INGREDIENT = 'ADD_INGREDIENT';
+export const BEFORE_INRGEDIENT = 'BEFORE_INRGEDIENT';
+//Cave
+export const BEFORE_BAKE_PIZZA = "BEFORE_BAKE_PIZZA";
+export const BAKE_PIZZA = "BAKE_PIZZA";
+export const BAKED_PIZZAS = "BAKED_PIZZAS";
+export const GET_BAKED_PIZZAS_AUTH = "GET_BAKED_PIZZAS_AUTHS";
+export const UNBAKE_PIZZA = "UNBAKE_PIZZA";
+export const REBAKE_PIZZA_INGREDIENTS = "REBAKE_PIZZA_INGREDIENTS";
+export const REBAKED_PIZZA = "REBAKED_PIZZA";
+export const RANDOM_PIZZA = "RANDOM_PIZZA";
+export const GET_PIZZA = 'GET_PIZZA';
+export const BUY_AND_BAKE_PIZZA = "BUY_AND_BAKE_PIZZA"
+
+//Categories
+export const GET_CATEGORIES = 'GET_CATEGORIES';
+export const GET_CATEGORY = 'GET_CATEGORY';
+//Wallet
+export const SET_WALLET_ERROR ='SET_WALLET_ERROR';
+export const REDIRECT_TO_WALLET = 'REDIRECT_TO_WALLET';
+
+
+// Random
+export const RANDOM_PIZZA_INGREDIENTS = 'RANDOM_PIZZA_INGREDIENTS'
+
+// Faq
+export const GET_FAQ = "GET_FAQ"
+
+// Settings
+export const GET_SETTINGS = "GET_SETTINGS"
