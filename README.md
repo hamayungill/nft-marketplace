@@ -20,14 +20,13 @@ The **NFT Marketplace** is a decentralized platform that allows users to mint, b
 ## Tech Stack
 
 - **Frontend**:
-  - React.js, Next.js, or Vue.js for user interfaces.
-  - Tailwind CSS or Bootstrap for styling.
+  - React.js for user interfaces.
+  - Bootstrap for styling.
 - **Backend**:
   - Node.js with Express.js for server-side operations.
   - IPFS for decentralized storage of NFT metadata.
 - **Smart Contracts**:
   - Solidity for Ethereum-based contracts.
-  - Hardhat or Truffle for development and deployment.
 - **Blockchain**:
   - Ethereum or Polygon for decentralized transaction management.
 - **Database**:
